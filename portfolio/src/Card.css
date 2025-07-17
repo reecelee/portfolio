@@ -1,0 +1,31 @@
+div.scrollmenu {
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow: auto;
+  white-space: nowrap;
+  font-size: 50px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  background-color: pink;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin: 1%;
+  height: 600px;
+  width: 1000px;
+  border-radius: 5%;
+  border: solid;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+div.scrollmenu p {
+    color: blue;
+    text-wrap: stable;
+    text-align: left;
+}
