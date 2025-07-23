@@ -1,0 +1,49 @@
+.scrollmenu {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  overflow: auto;
+  white-space: nowrap;
+  font-size: 50px;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  background-color: #CFFFE2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  margin: 1%;
+  height: 1%;
+  width: 40%;
+  border-radius: 5%;
+  border: solid;
+}
+
+.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.scrollmenu p {
+    color: blue;
+    text-wrap: stable;
+    text-align: left;
+    font-size: 20px;
+}
+
+.scrollmenu h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.firstCard {
+  display: inline;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    margin-left: 5%;
+    color: #A2D5C6;
+    display: inline-flex;
+}
